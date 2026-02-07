@@ -1,0 +1,17 @@
+cat > .gitignore <<EOF
+# Ignore Data Files
+D184MB/
+D184MB.zip
+*.txt
+url?sa=D
+wget-log
+
+# Ignore Java Build Artifacts
+classes/
+*.jar
+*.class
+
+# Ignore Python Cache
+__pycache__/
+*.pyc
+EOF
